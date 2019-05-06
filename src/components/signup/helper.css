@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    font-family: serif;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial,
+      sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    line-height: 1.5;
+    color: #24292e;
+    background-color: #fff;
+  }
+  
+  .app {
+    margin: 2rem;
+  }
+  
+  a {
+    color: #08c;
+  }
+  
+  code {
+    background: #eee;
+    padding: .1rem;
+    font-family: 'Menlo';
+    font-size: 13px;
+    color: #ff00aa;
+  }
+  
+  input {
+    padding: .5rem;
+    font-size: 16px;
+    width: 100%;
+    display: block;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  input:focus {
+    border-color: #007eff;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+      0 0 0 3px rgba(0, 126, 255, 0.1);
+    outline: none;
+  }
+  
+  input.error {
+    border-color: red;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: .5rem;
+  }
+  
+  .input-feedback {
+    color: red;
+    margin-top: .25rem;
+  }
+  
+  button {
+    max-width: 150px;
+    margin: 20px 0;
+    padding: 12px 20px;
+    border-style: none;
+    border-radius: 5px;
+    background-color: #08c;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    -webkit-appearance: none;
+  }
+  
+  button:disabled {
+    opacity: .5;
+    cursor: not-allowed !important;
+  }
+  
+  button + button {
+    margin-left: .5rem;
+  }
+  
+  .outlining {
+    margin: 10px !important;
+    width: 200px !important;
+  }
+
+  .aws-btn {
+    --button-default-height: 48px !important;
+    --button-default-font-size: 14px!important;
+    --button-default-border-radius: 6px!important;
+    --button-horizontal-padding: 20px!important;
+    --button-raise-level: 5px!important;
+    --button-hover-pressure: 2 !important;
+    --transform-speed: 0.185s!important;
+    --button-primary-color: #475472!important;
+    --button-primary-color-dark: #2a3143!important;
+    --button-primary-color-light: #d4d9e4!important;
+    --button-primary-color-hover: #424e6a!important;
+    --button-primary-border: none!important;
+    --button-secondary-color: #fffc6c!important;
+    --button-secondary-color-dark: #b9b500!important;
+    --button-secondary-color-light: #6c6a00!important;
+    --button-secondary-color-hover: #fffb3e!important;
+    --button-secondary-border: none!important;
+    --button-anchor-color: #f3c8ad!important;
+    --button-anchor-color-dark: #734922!important;
+    --button-anchor-color-light: #4c3016!important;
+    --button-anchor-color-hover: #f1bfa0!important;
+    --button-anchor-border: 1px solid #8c633c!important;
+    }
+  .productDetail {
+    padding: 0px 100px 10px 100px;
+    font-weight: 500;
+  }
+  

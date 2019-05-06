@@ -1,0 +1,145 @@
+.SearchBar {
+    padding: 10px;
+}
+#elementID {
+    color: #8c939d;
+}
+#searchIcon.btn-primary {
+    background-color: #fff !important;
+    border-color: #ced4da !important;
+}
+.btn-outline-secondary {
+    border-color: #F8F9FA !important;
+}
+button {
+    box-shadow: none !important;
+    margin: 0px !important;
+}
+#searchIcon.btn {
+    width: 80px;
+}
+.logoApk {
+    height: 50px;
+    width: 50px;
+}
+.boldText {
+    font-weight: 'bold';
+}
+.dropdown-menu {
+    min-width: 16rem !important;
+}
+.column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.rowData {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin: 5px;
+}
+.dropdown-item {
+    padding: 0rem 1.5rem !important;
+}
+.WelcomeText {
+    font-weight: bolder;
+    padding: 0rem 1.0rem !important;
+}
+.manageOrders {
+    padding: 0rem 1.0rem !important;
+}
+.signupTopContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E1E7EE;
+}
+.signupTop {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    background-color: #F8F9FA;
+    padding: 10px;
+    margin: 50px;
+}
+.inputField {
+    width: 300px;
+}
+.somethingToInput {
+    background-color: 'red';
+}
+
+.AutoSuggestContainer {
+    position: absolute; 
+    z-index: 10;
+    background-color: white;
+    width: 65% 
+}
+
+
+body {
+    font-family: Helvetica, sans-serif;
+  }
+  
+  .react-autosuggest__container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .react-autosuggest__input {
+    width: 100%;
+    height: 38px;
+    padding: 10px 20px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    /* border: 1px solid #aaa; */
+    border-radius: 4px;
+  }
+  
+  .react-autosuggest__input--focused {
+    outline: none;
+  }
+  
+  .react-autosuggest__input--open {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  .react-autosuggest__suggestions-container {
+    display: none;
+  }
+  
+  .react-autosuggest__suggestions-container--open {
+    display: block;
+    position: absolute;
+    top: 51px;
+    width: 100%;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    z-index: 2;
+  }
+  
+  .react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .react-autosuggest__suggestion {
+    cursor: pointer;
+    padding: 10px 20px;
+  }
+  
+  .react-autosuggest__suggestion--highlighted {
+    background-color: #ddd;
+  }

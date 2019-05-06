@@ -1,0 +1,13 @@
+.sliderImage {
+    width: 80%;
+}
+.CardGroup {
+   width: 80% !important;
+   margin-left: 10%;
+}
+.CardGroupTop {
+    margin: 30px;
+}
+.card {
+    border: none !important;
+}
